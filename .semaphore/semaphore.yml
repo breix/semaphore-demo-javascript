@@ -19,6 +19,7 @@ blocks:
         - name: client npm install and cache
           commands:
             - echo "job"
+          parallelism: 10
         - name: server npm install and cache
           commands:
             - echo "job"
